@@ -1,0 +1,136 @@
+@media only screen and (max-width: 688px) {
+  .nav-bar {
+    flex-direction: column;
+    height: auto;
+    justify-content: center;
+    align-items: center;
+  }
+  .menu {
+    flex-direction: column;
+    margin-top: 20px;
+  }
+  .menu li {
+    margin-top: 20px;
+    padding: 10px;
+    border-radius: 4px;
+  }
+  .menu .item:hover {
+    background-color: darkslategrey;
+    transition: 0.5s;
+  }
+
+  .container {
+    margin-top: 21px;
+    width: 100%;
+  }
+  .players,
+  .blogs,
+  .courses {
+    display: grid;
+    grid-template-columns: repeat(1, 1fr);
+    justify-content: center;
+    align-items: center;
+  }
+
+  .player {
+    flex-direction: column;
+    align-items: center;
+  }
+  .blog {
+    flex-direction: row;
+  }
+  h1 {
+    text-align: center;
+  }
+
+  article {
+    flex-direction: column;
+
+    margin-top: 20px;
+  }
+}
+article p,
+a {
+  text-align: center;
+}
+.course {
+  margin-right: 0;
+}
+.banner {
+  margin-top: 14px;
+}
+.banner,
+h4,
+p {
+  text-align: center;
+}
+.course-info {
+  justify-content: center;
+}
+/* For Tablets and Ipads */
+@media only screen and (min-width: 688px) and (max-width: 992px) {
+  .menu li {
+    padding: 10px;
+    border-radius: 4px;
+  }
+  .menu .item:hover {
+    background-color: rgb(36, 36, 36);
+    transition: 0.5s;
+  }
+
+  .container {
+    margin-top: 21px;
+    width: 100%;
+  }
+  .players {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    justify-content: center;
+    align-items: center;
+  }
+  .blogs,
+  .courses {
+    grid-template-columns: repeat(1, 1fr);
+    justify-content: center;
+  }
+
+  .player {
+    flex-direction: column;
+    align-items: center;
+  }
+  .player h2 {
+    margin-left: 0;
+  }
+  .blog {
+    flex-direction: row;
+  }
+  h1 {
+    text-align: center;
+  }
+
+  article {
+    flex-direction: column;
+
+    margin-top: 20px;
+  }
+}
+article p,
+a {
+  text-align: center;
+}
+.course {
+  margin-right: 0;
+  margin-top: 20px;
+  width: 100%;
+}
+.banner {
+  margin-top: 14px;
+}
+.banner,
+h4,
+p {
+  text-align: center;
+}
+.course-info {
+  justify-content: center;
+}

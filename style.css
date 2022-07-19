@@ -16,6 +16,45 @@ hr {
   margin-top: 21px;
   width: 252.42px;
 }
+/* Header */
+.nav {
+  background-color: #562eff;
+}
+.nav span {
+  color: white;
+  margin-left: 16px;
+}
+.nav-bar {
+  width: 50%;
+  height: 74px;
+  margin-left: auto;
+  margin-right: auto;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+.logo {
+  /* width: 30%; */
+  display: flex;
+  align-items: center;
+}
+.logo img {
+  width: 40px;
+  height: 50px;
+}
+.menu {
+  list-style: none;
+  color: #f3f1ff;
+  display: flex;
+  align-items: center;
+}
+li {
+  margin-left: 20px;
+}
+li img {
+  height: 51px;
+  width: 51px;
+}
 /* players style  */
 .container {
   background-color: #ffffff;
@@ -125,109 +164,3 @@ article {
 }
 /* Media Queries */
 /* For Mobile */
-@media only screen and (max-width: 688px) {
-  .container {
-    margin-top: 21px;
-    width: 100%;
-  }
-  .players,
-  .blogs,
-  .courses {
-    display: grid;
-    grid-template-columns: repeat(1, 1fr);
-    justify-content: center;
-    align-items: center;
-  }
-
-  .player {
-    flex-direction: column;
-    align-items: center;
-  }
-  .blog {
-    flex-direction: row;
-  }
-  h1 {
-    text-align: center;
-  }
-
-  article {
-    flex-direction: column;
-
-    margin-top: 20px;
-  }
-}
-article p,
-a {
-  text-align: center;
-}
-.course {
-  margin-right: 0;
-}
-.banner {
-  margin-top: 14px;
-}
-.banner,
-h4,
-p {
-  text-align: center;
-}
-.course-info {
-  justify-content: center;
-}
-@media only screen and (min-width: 688px) and (max-width: 992px) {
-  .container {
-    margin-top: 21px;
-    width: 100%;
-  }
-  .players {
-    display: grid;
-    grid-template-columns: repeat(2, 1fr);
-    justify-content: center;
-    align-items: center;
-  }
-  .blogs,
-  .courses {
-    grid-template-columns: repeat(1, 1fr);
-    justify-content: center;
-  }
-
-  .player {
-    flex-direction: column;
-    align-items: center;
-  }
-  .player h2 {
-    margin-left: 0;
-  }
-  .blog {
-    flex-direction: row;
-  }
-  h1 {
-    text-align: center;
-  }
-
-  article {
-    flex-direction: column;
-
-    margin-top: 20px;
-  }
-}
-article p,
-a {
-  text-align: center;
-}
-.course {
-  margin-right: 0;
-  margin-top: 20px;
-  width: 100%;
-}
-.banner {
-  margin-top: 14px;
-}
-.banner,
-h4,
-p {
-  text-align: center;
-}
-.course-info {
-  justify-content: center;
-}
